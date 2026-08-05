@@ -638,7 +638,6 @@ h1, h2, h3, h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-bottom: 80px;
 }
 
 .audience-card {
@@ -694,8 +693,9 @@ h1, h2, h3, h4 {
     grid-template-columns: 0.9fr 1.1fr;
     gap: 48px;
     align-items: center;
-    border-top: 1px solid rgba(12, 69, 159, 0.08);
-    padding-top: 80px;
+    border-bottom: 1px solid rgba(12, 69, 159, 0.08);
+    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .about-visual {
